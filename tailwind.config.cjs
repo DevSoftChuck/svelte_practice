@@ -2,10 +2,12 @@
 module.exports = {
 	content: [
 		'./src/**/*.{html,js,svelte,ts}',
-		'./node_modules/tw-elements/dist/js/**/*.{html,js,svelte,ts}'
+		'./node_modules/flowbite-svelte/**/*.{html,js,svelte,ts}'
 	],
 	theme: {
 		extend: {}
 	},
-	plugins: [require('tw-elements/dist/plugin')]
+	plugins: [
+		require('flowbite/plugin')
+	]
 };
