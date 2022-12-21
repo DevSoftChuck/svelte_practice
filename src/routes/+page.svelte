@@ -1,5 +1,8 @@
+<script>
+</script>
+
 <svelte:head>
-	<title>TracePro</title>
-	<meta name="TracePro pagina principal" content="TracePro app" />
+	<title>NOMBRE_DE_LA_EMPRESA</title>
+	<meta name="NOMBRE_DE_LA_EMPRESA pagina principal" content="NOMBRE_DE_LA_EMPRESA app" />
 </svelte:head>
 

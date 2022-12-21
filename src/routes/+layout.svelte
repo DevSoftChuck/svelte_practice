@@ -6,8 +6,7 @@
 
 <div>
 	<HomeNavBar />
-
-	<main>
+	<main class="relative h-full">
 		<slot />
 	</main>
 
