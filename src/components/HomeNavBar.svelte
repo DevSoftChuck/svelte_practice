@@ -47,7 +47,7 @@
 
 </script>
 
-<nav class="fixed z-30 w-full bg-white border-gray-200 px-2 sm:px-4 py-2.5 dark:bg-gray-900">
+<nav class="fixed z-30 w-full bg-white border-gray-200 px-2 sm:px-4 py-5 dark:bg-gray-900">
   <div class="container flex flex-wrap items-center justify-between mx-auto max-w-screen-xl">
     <a href="/" class="flex items-center">
         <img src="https://flowbite.com/docs/images/logo.svg" class="h-6 mr-3 sm:h-9" alt="NOMBRE_DE_LA_EMPRESA Logo" />

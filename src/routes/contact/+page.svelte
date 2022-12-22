@@ -1,8 +1,4 @@
 <script>
-	// this.setCustomValidity('Por favor, ingrese un correo electronico valido!')
-
-	//create a function to validate if inputs are empty and throw a message as tooltip using setCustomValidity
-
 	const handleInputChange = (e) => {
 		const input = e.target;
 		const value = input.value;
