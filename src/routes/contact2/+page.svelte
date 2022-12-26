@@ -86,8 +86,8 @@
 	<meta name="Contacto" content="Contacto" />
 </svelte:head>
 
-<section class="bg-white dark:bg-gray-900">
-	<div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
+<section class="py-28 bg-white dark:bg-gray-900">
+	<div class="px-4 mx-auto max-w-screen-md">
 		<h2 class="mb-16 text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white" >
 			¿Hay algún asunto en particular que estés tratando de resolver?
 		</h2>
@@ -193,7 +193,7 @@
 			</div>
 		</form>
 		<svelte:fragment slot='footer'>
-			<Button type="submit">Enviar mensaje</Button>
+			<Button>Enviar mensaje</Button>
 		</svelte:fragment>
 	</Modal>
 {/if}

@@ -4,12 +4,10 @@
 	import HomeFooter from '../components/HomeFooter.svelte';
 </script>
 
-<div>
+<div >
 	<HomeNavBar />
-
-	<main class="relative h-full pt-16">
+	<main class="pt-8">
 		<slot />
 	</main>
-
 	<HomeFooter />
 </div>

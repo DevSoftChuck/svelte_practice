@@ -1,19 +1,23 @@
+<script>
+
+</script>
+
 <svelte:head>
 	<title>Privacidad</title>
-	<meta name="Aviso de privacidad de NOMBRE_DE_LA_EMPRESA.com" content="Aviso de privacidad" />
+	<meta name="Aviso de privacidad de NOMBRE.com" content="Aviso de privacidad" />
 </svelte:head>
 
-<section class="bg-white dark:bg-gray-900 py-8 px-4 lg:py-16 lg:px-12">
+<section class="bg-white dark:bg-gray-900 px-8 py-28 lg:px-12">
 	<div class="mx-auto text-center max-w-screen-2xl">
 		<h1
 			class="mb-8 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-4xl lg:text-5xl dark:text-white"
 		>
-			Aviso de privacidad de NOMBRE_DE_LA_EMPRESA.com
+			Aviso de privacidad de NOMBRE.com
 		</h1>
 		<p
 			class="mb-8 text-base font-normal text-gray-500 lg:text-lg sm:px-16 xl:px-48 dark:text-gray-400"
 		>
-    NOMBRE_DE_LA_EMPRESA S.A. (en adelante, "NOMBRE_DE_LA_EMPRESA") respeta su preocupación por la privacidad. Esta política
+			NOMBRE S.A. (en adelante, "NOMBRE") respeta su preocupación por la privacidad. Esta política
 			de privacidad ("Aviso de Privacidad") describe los tipos de Información Personal que
 			recopilamos, cómo la utilizamos y con quién la compartimos. "Información Personal" significa
 			cualquier información que identifique o se refiera a un individuo en particular y también
@@ -22,10 +26,10 @@
 			normas o reglamentos. En función de los servicios que ofrecemos, somos tanto un procesador de
 			datos de la información que usted nos proporciona sobre usted y sólo actuamos con esta
 			información en su nombre (consulte nuestras Condiciones de uso en
-			https://www.NOMBRE_DE_LA_EMPRESA.com/terms) como el controlador de datos para los datos que usted nos
+			https://www.NOMBRE.com/terms) como el controlador de datos para los datos que usted nos
 			proporciona para acceder a nuestros servicios y realizar compras. Esta Política de Privacidad
 			se aplica a nuestro sitio web y/o aplicaciones móviles ("Sitio Web") y los servicios en línea
-			y fuera de línea relacionados con la marca NOMBRE_DE_LA_EMPRESA (los "Servicios"). Esta Política de
+			y fuera de línea relacionados con la marca NOMBRE (los "Servicios"). Esta Política de
 			Privacidad no cubre las prácticas de las empresas que no poseemos o controlamos o de las
 			personas que no dirigimos. Esta Política de Privacidad se rige por las Condiciones de Uso, y
 			todos los términos en mayúsculas utilizados pero no definidos en esta Política de Privacidad
@@ -36,7 +40,7 @@
 			class="mb-8 text-base font-normal text-gray-500 lg:text-lg sm:px-16 xl:px-48 dark:text-gray-400"
 		>
 			Si usted tiene preguntas o inquietudes con respecto a esta Política de Privacidad, primero
-			debe ponerse en contacto con NOMBRE_DE_LA_EMPRESA enviando un correo electrónico a privacy@NOMBRE_DE_LA_EMPRESA.com.
+			debe ponerse en contacto con NOMBRE enviando un correo electrónico a privacy@NOMBRE.com.
 		</p>
 
 		<div class="py-8 px-4 mx-auto max-w-screen-xl sm:py-6 lg:px-8">
@@ -55,7 +59,7 @@
 									clip-rule="evenodd"
 								/></svg
 							>
-							¿Qué información personal acerca de los clientes recopila NOMBRE_DE_LA_EMPRESA?
+							¿Qué información personal acerca de los clientes recopila NOMBRE?
 						</h3>
 						<p
 							class="pt-4 text-gray-500 dark:text-gray-400 border-t border-gray-200 dark:border-gray-700"
@@ -71,18 +75,18 @@
 								<strong class="font-semibold text-gray-900 dark:text-white"
 									>Información que usted nos da</strong
 								>: Recibimos y almacenamos cualquier información que nos proporciones en relación
-								con los servicios NOMBRE_DE_LA_EMPRESA.
+								con los servicios NOMBRE.
 							</li>
 							<li>
 								<strong class="font-semibold text-gray-900 dark:text-white"
 									>Información automática</strong
 								>: Recopilamos y almacenamos automáticamente determinados tipos de información
-								acerca de tu uso con los servicios NOMBRE_DE_LA_EMPRESA, que incluye la información sobre tu
+								acerca de tu uso con los servicios NOMBRE, que incluye la información sobre tu
 								interacción con productos, el contenido y los servicios disponibles a través de los
-								servicios NOMBRE_DE_LA_EMPRESA. Al igual que muchos sitios web, utilizamos "cookies" y otros
+								servicios NOMBRE. Al igual que muchos sitios web, utilizamos "cookies" y otros
 								identificadores únicos, y obtenemos ciertos tipos de información cuando su navegador
-								web o dispositivo accede a los servicios NOMBRE_DE_LA_EMPRESA y a otro contenido servido por
-								NOMBRE_DE_LA_EMPRESA o en su nombre en otros sitios web. Nuestras tiendas físicas pueden utilizar
+								web o dispositivo accede a los servicios NOMBRE y a otro contenido servido por
+								NOMBRE o en su nombre en otros sitios web. Nuestras tiendas físicas pueden utilizar
 								cámaras, visión computarizada, sensores y otras tecnologías para recopilar
 								información sobre tu actividad en la tienda, así como con los productos y servicios
 								con los que interactúas.
@@ -109,7 +113,7 @@
 									clip-rule="evenodd"
 								/></svg
 							>
-							¿Con qué fines utiliza NOMBRE_DE_LA_EMPRESA su información personal?
+							¿Con qué fines utiliza NOMBRE su información personal?
 						</h3>
 						<p
 							class="pt-4 text-gray-500 dark:text-gray-400 border-t border-gray-200 dark:border-gray-700"
@@ -128,17 +132,17 @@
 							</li>
 							<li>
 								<strong class="font-semibold text-gray-900 dark:text-white"
-									>Proporcionar, solucionar problemas y mejorar NOMBRE_DE_LA_EMPRESA Services</strong
+									>Proporcionar, solucionar problemas y mejorar NOMBRE Services</strong
 								>. Utilizamos su información personal para proporcionar funcionalidad, analizar el
 								rendimiento, corregir errores y mejorar la usabilidad y eficacia de los Servicios de
-								NOMBRE_DE_LA_EMPRESA.
+								NOMBRE.
 							</li>
 							<li>
 								<strong class="font-semibold text-gray-900 dark:text-white"
 									>Recomendaciones y personalización</strong
 								>. Utilizamos su información personal para recomendar funciones, productos y
 								servicios que puedan ser de su interés, identificar sus preferencias y personalizar
-								su experiencia con NOMBRE_DE_LA_EMPRESA Services.
+								su experiencia con NOMBRE Services.
 							</li>
 							<li>
 								<strong class="font-semibold text-gray-900 dark:text-white"
@@ -157,7 +161,7 @@
 								<strong class="font-semibold text-gray-900 dark:text-white"
 									>Comunicarnos con usted</strong
 								>. Utilizamos su información personal para comunicarnos con usted en relación con
-								NOMBRE_DE_LA_EMPRESA Services a través de diferentes canales (por ejemplo, por teléfono, correo
+								NOMBRE Services a través de diferentes canales (por ejemplo, por teléfono, correo
 								electrónico, chat).
 							</li>
 							<li>
@@ -171,7 +175,7 @@
 								<strong class="font-semibold text-gray-900 dark:text-white"
 									>Prevención de Fraude</strong
 								>. Utilizamos información personal para prevenir y detectar fraudes y abusos con el
-								fin de proteger la seguridad de nuestros clientes, NOMBRE_DE_LA_EMPRESA y otros.
+								fin de proteger la seguridad de nuestros clientes, NOMBRE y otros.
 							</li>
 						</ul>
 					</div>
@@ -195,7 +199,7 @@
 							class="pt-4 text-gray-500 dark:text-gray-400 border-t border-gray-200 dark:border-gray-700"
 						>
 							Para permitir que nuestros sistemas reconozcan su navegador o dispositivo y
-							proporcionen y mejoren los Servicios de NOMBRE_DE_LA_EMPRESA, utilizamos cookies y otros
+							proporcionen y mejoren los Servicios de NOMBRE, utilizamos cookies y otros
 							identificadores.
 						</p>
 					</div>
@@ -212,7 +216,7 @@
 									clip-rule="evenodd"
 								/></svg
 							>
-							¿Comparte NOMBRE_DE_LA_EMPRESA su información personal?
+							¿Comparte NOMBRE su información personal?
 						</h3>
 						<p
 							class="pt-4 text-gray-500 dark:text-gray-400 border-t border-gray-200 dark:border-gray-700"
@@ -220,7 +224,7 @@
 							La información sobre nuestros clientes es una parte importante de nuestro negocio, y
 							no estamos en el negocio de vender la información personal de nuestros clientes a
 							otros. Compartimos la información de los clientes únicamente en el modo descrito a
-							continuación y con filiales bajo el control de NOMBRE_DE_LA_EMPRESA S.A., las cuales o bien están
+							continuación y con filiales bajo el control de NOMBRE S.A., las cuales o bien están
 							sujetas al presente Aviso de Privacidad o siguen unas prácticas al menos tan
 							protectoras como las descritas en el presente Aviso de Privacidad.
 						</p>
@@ -230,7 +234,7 @@
 								<strong class="font-semibold text-gray-900 dark:text-white"
 									>Operaciones con terceros</strong
 								>: Le ponemos a su disposición los servicios, productos, aplicaciones o
-								conocimientos proporcionados por terceros para su uso en o a través de NOMBRE_DE_LA_EMPRESA
+								conocimientos proporcionados por terceros para su uso en o a través de NOMBRE
 								Services. Por ejemplo, puede pedir productos a terceros a través de nuestras
 								tiendas.
 							</li>
@@ -255,17 +259,17 @@
 								clientes suele ser uno de los activos de los negocios transferidos. Sin embargo,
 								dicha información estará en todo caso sujeta a los compromisos adquiridos en
 								cualquier Aviso de Privacidad preexistente (a menos, claro, que el cliente lo
-								autorice de otro modo). También, en el improbable caso de que NOMBRE_DE_LA_EMPRESA S.A., o la
+								autorice de otro modo). También, en el improbable caso de que NOMBRE S.A., o la
 								mayor parte de sus activos sean adquiridos por un tercero, la información relativa a
 								los clientes sería uno de los activos transferidos.
 							</li>
 							<li>
 								<strong class="font-semibold text-gray-900 dark:text-white"
-									>Protección de NOMBRE_DE_LA_EMPRESA y otros</strong
+									>Protección de NOMBRE y otros</strong
 								>: Liberamos información de cuenta y otra información personal cuando creemos que la
 								liberación es apropiada para cumplir con la ley; hacer cumplir o aplicar nuestro
 								Condiciones de Uso y otros acuerdos; o proteger los derechos, propiedad o seguridad
-								de NOMBRE_DE_LA_EMPRESA, nuestros usuarios u otros. Esto incluye el intercambio de información con
+								de NOMBRE, nuestros usuarios u otros. Esto incluye el intercambio de información con
 								otras compañías y organizaciones para la protección contra el fraude.
 							</li>
 						</ul>
@@ -312,7 +316,7 @@
 							<li>
 								Es importante que usted proteja contra el acceso no autorizado a su contraseña y a
 								sus equipos, dispositivos y aplicaciones. Recomendamos usar una contraseña única
-								para su cuenta de NOMBRE_DE_LA_EMPRESA que no sea utilizada en otras cuentas en línea. Asegúrese
+								para su cuenta de NOMBRE que no sea utilizada en otras cuentas en línea. Asegúrese
 								de cerrar la sesión cuando termine de usar un equipo compartido.
 							</li>
 						</ul>
@@ -337,7 +341,7 @@
 						>
 							<strong class="font-semibold text-gray-900 dark:text-white"
 								>Anunciantes de terceros y enlaces a otros sitios web</strong
-							>: NOMBRE_DE_LA_EMPRESA Services puede incluir publicidad de terceros y enlaces a otros sitios web y
+							>: NOMBRE Services puede incluir publicidad de terceros y enlaces a otros sitios web y
 							aplicaciones. Los socios publicitarios de terceros pueden recopilar información sobre
 							usted cuando interactúa con su contenido, publicidad y servicios.
 						</p>
@@ -401,14 +405,14 @@
 									clip-rule="evenodd"
 								/></svg
 							>
-							¿Se permite que menores de edad utilicen NOMBRE_DE_LA_EMPRESA Services?
+							¿Se permite que menores de edad utilicen NOMBRE Services?
 						</h3>
 						<p
 							class="pt-4 text-gray-500 dark:text-gray-400 border-t border-gray-200 dark:border-gray-700"
 						>
-            NOMBRE_DE_LA_EMPRESA.com no comercializa productos para ser adquiridos por menores de edad.
+							NOMBRE.com no comercializa productos para ser adquiridos por menores de edad.
 							Comercializamos productos para menores de edad para ser adquiridos por personas
-							mayores de edad. Si usted es menor de 18 años, puede utilizar los Servicios de NOMBRE_DE_LA_EMPRESA
+							mayores de edad. Si usted es menor de 18 años, puede utilizar los Servicios de NOMBRE
 							solo con la supervisión de un padre o tutor. No recabamos conscientemente información
 							personal de niños menores de 13 años de edad sin el consentimiento del padre o tutor
 							del menor.
@@ -432,10 +436,10 @@
 						<p
 							class="pt-4 text-gray-500 dark:text-gray-400 border-t border-gray-200 dark:border-gray-700"
 						>
-							Si decide utilizar NOMBRE_DE_LA_EMPRESA Services, su uso y cualquier disputa sobre privacidad están
+							Si decide utilizar NOMBRE Services, su uso y cualquier disputa sobre privacidad están
 							sujetos a este Aviso y nuestras Condiciones de uso, incluyendo limitaciones de daños,
 							resolución de disputas y aplicación de la ley del Estado Paraguayo. Si tiene cualquier
-							inquietud en relación con la privacidad en NOMBRE_DE_LA_EMPRESA.com, le pedimos que nos contacte con
+							inquietud en relación con la privacidad en NOMBRE.com, le pedimos que nos contacte con
 							una descripción detallada y nosotros trataremos de resolverla. Nuestro negocio cambia
 							constantemente, y nuestro Aviso de Privacidad también cambiará. Debe consultar
 							nuestros sitios web con frecuencia para ver los cambios recientes. A menos que se

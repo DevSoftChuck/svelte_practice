@@ -3,8 +3,8 @@
 	<meta name="Preguntas frecuentes" content="Preguntas frecuentes" />
 </svelte:head>
 
-<section class="bg-white dark:bg-gray-900">
-	<div class="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
+<section class="py-28 bg-white dark:bg-gray-900">
+	<div class="px-8 mx-auto max-w-screen-xl md:px-16 lg:px-20">
 		<h2
 			class="mb-8 text-center text-4xl tracking-tight leading-none font-extrabold text-gray-900 md:text-4xl lg:text-5xl dark:text-white"
 		>
