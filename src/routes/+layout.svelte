@@ -1,13 +1,13 @@
 <script>
 	import '../app.postcss';
-	import HomeNavBar from "../components/HomeNavBar.svelte";
-	import HomeFooter from '../components/HomeFooter.svelte';
+	import NavbarLogout from "../components/NavbarLogout.svelte";
+	import Footer from '../components/Footer.svelte';
 </script>
 
 <div >
-	<HomeNavBar />
+	<NavbarLogout />
 	<main class="pt-8">
 		<slot />
 	</main>
-	<HomeFooter />
+	<Footer />
 </div>
