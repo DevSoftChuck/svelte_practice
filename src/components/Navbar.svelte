@@ -2,6 +2,7 @@
 	import { onMount } from 'svelte';
 	import { Button } from 'flowbite-svelte';
 	import LoginModal from './LoginModal.svelte';
+	import SignupModal from './SignupModal.svelte';
 	import SideBar from './SideBar.svelte';
 
 	onMount(() => {
@@ -52,8 +53,9 @@
 	// Sidebar param
 	let hidden2 = true;
 
-	// Login Modal param
-	let formModal = false;
+	// Login/Signup Modal param
+	let loginModal = false;
+	let signupModal = false;
 </script>
 
 <nav
@@ -97,13 +99,14 @@
 			<!-- Login/Signup buttons -->
 			<div class="flex items-center hidden md:block">
 				<Button
-					on:click={() => (formModal = true)}
+					on:click={() => (loginModal = true)}
 					btnClass="text-gray-800 dark:text-white hover:bg-gray-300 focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 dark:hover:bg-gray-700 focus:outline-none dark:focus:ring-gray-800"
 					>Identificarse</Button
 				>
 				<Button
+					on:click={() => (signupModal = true)}
 					btnClass="text-white bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 dark:bg-primary-600 dark:hover:bg-primary-700 focus:outline-none dark:focus:ring-primary-800"
-					>Signup</Button
+					>Registrarse</Button
 				>
 			</div>
 
@@ -136,6 +139,16 @@
 			</button>
 		</div>
 	</div>
-	<SideBar bind:hidden2 />
-	<LoginModal bind:formModal />
 </nav>
+
+{#if loginModal}
+	<LoginModal bind:formModal={loginModal} />
+{/if}
+
+{#if signupModal}
+	<SignupModal bind:formModal={signupModal} />
+{/if}
+
+{#if hidden2}
+	<SideBar bind:hidden2 />
+{/if}

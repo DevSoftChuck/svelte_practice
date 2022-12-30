@@ -1,5 +1,6 @@
 <script>
-	import { Button, Modal, Label, Input, Checkbox } from 'flowbite-svelte';
+	import { Button, Modal, Label, Input } from 'flowbite-svelte';
+	import LoginModal from './LoginModal.svelte';
 	export let formModal = false;
 
 	const closeModal = () => {
@@ -7,40 +8,39 @@
 	};
 </script>
 
-<Modal bind:open={formModal} size="xs" autoclose>
-	<form class="flex flex-col space-y-5" action="#">
-		<h3 class="text-xl font-medium text-gray-900 dark:text-white p-0">Iniciar sesión</h3>
+<Modal id="signup_modal" bind:open={formModal} size="xs" autoclose>
+	<form class="flex flex-col space-y-4" action="#">
+		<h3 class="text-xl font-medium text-gray-900 dark:text-white p-0">Crear una cuenta</h3>
+		<Label class="space-y-2">
+			<span>Tu nombre</span>
+			<Input type="text" name="name" placeholder="Nombres y apellidos" required />
+		</Label>
 		<Label class="space-y-2">
 			<span>Dirección de e-mail</span>
 			<Input type="email" name="email" placeholder="nombre@ejemplo.com" required />
 		</Label>
 		<Label class="space-y-2">
 			<span>Contraseña</span>
-			<Input type="password" name="password" placeholder="••••••••••" required />
+			<Input type="password" name="password" placeholder="Como mínimo 8 caracteres" required />
 		</Label>
-		<div class="flex items-start">
-			<Checkbox>Recordar</Checkbox>
-			<a
-				on:click={closeModal}
-				href="/"
-				class="ml-auto text-sm text-blue-700 hover:underline dark:text-blue-500"
-				>¿Olvidaste tu contraseña?</a
-			>
-		</div>
+		<Label class="space-y-2">
+			<span>Confirmar contraseña</span>
+			<Input type="confirm-password" name="confirm-password" placeholder="••••••••••" required />
+		</Label>
 		<p id="helper-text-explanation" class="ml-2 font-medium text-sm text-gray-500">
-			Al identificarte aceptas nuestras <a
+			Al crear una cuenta, aceptas las <a
 				on:click={closeModal}
 				href="/terms"
 				class="text-blue-600 hover:underline dark:text-blue-500">Condiciones de uso</a
 			>
-			y nuestra
+			y el
 			<a
 				on:click={closeModal}
 				href="/privacy"
-				class="text-blue-600 hover:underline dark:text-blue-500">Política de privacidad</a
+				class="text-blue-600 hover:underline dark:text-blue-500">Aviso de Privacidad</a
 			>.
 		</p>
-		<Button type="submit" class="w-full">Iniciar sesión</Button>
+		<Button type="submit" class="w-full">Crear cuenta</Button>
 
 		<!-- Separador de redes sociales -->
 		<div class="flex justify-center items-center relative">
@@ -103,10 +103,10 @@
 	<svelte:fragment slot="footer">
 		<div class="text-sm font-medium text-gray-500 dark:text-gray-300">
 			<p>
-				¿No tienes una cuenta? <a
+				¿Ya tienes una cuenta? <a
 					on:click={closeModal}
-					href="/"
-					class="text-blue-700 hover:underline dark:text-blue-500">Registrate aquí.</a
+					href="#"
+					class="text-blue-700 hover:underline dark:text-blue-500">Iniciar sesión.</a
 				>
 			</p>
 		</div>

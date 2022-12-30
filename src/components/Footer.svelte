@@ -23,7 +23,7 @@
           <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Podemos Ayudarte</h2>
           <ul class="text-gray-600 dark:text-gray-400">
             <li class="mb-4">
-              <a href="/contact2" class="hover:underline">Contáctanos</a>
+              <a href="/contact" class="hover:underline">Contáctanos</a>
             </li>
             <li>
               <a href="/faqs" class="hover:underline">Preguntas frecuentes</a>
