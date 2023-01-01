@@ -9,22 +9,16 @@
 		messageValue: ''
 	};
 
-	const inputBasetStyle =
-		'bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white';
 	const inputDefaultStyle =
-		' focus:border-blue-500 focus:ring-blue-500 dark:focus:ring-blue-500 dark:focus:border-blue-500 ';
+		'border-gray-300 dark:border-gray-500 focus:border-blue-500 focus:ring-blue-500 dark:focus:ring-blue-500 dark:focus:border-blue-500';
 	const errorBorderStyle =
-		' focus:border-red-400 focus:ring-red-500 dark:focus:border-red-500 dark:focus:ring-red-500 ';
+		'border-red-300 dark:border-red-500 focus:border-red-400 focus:ring-red-500 dark:focus:border-red-500 dark:focus:ring-red-500';
 
 	$: inputErrors = validateInputs(inputValues);
 	$: emailClass =
-		inputErrors.emailValue && inputValues.emailValue
-			? inputBasetStyle + errorBorderStyle
-			: inputBasetStyle + inputDefaultStyle;
+		inputErrors.emailValue && inputValues.emailValue ? errorBorderStyle : inputDefaultStyle;
 	$: subjectClass =
-		inputErrors.subjectValue && inputValues.subjectValue
-			? inputBasetStyle + errorBorderStyle
-			: inputBasetStyle + inputDefaultStyle;
+		inputErrors.subjectValue && inputValues.subjectValue ? errorBorderStyle : inputDefaultStyle;
 	$: messageClass =
 		inputErrors.messageValue && inputValues.messageValue ? errorBorderStyle : inputDefaultStyle;
 </script>
@@ -34,7 +28,7 @@
 		<Label class="space-y-2">
 			<span>Su correo electrónico</span>
 			<Input
-				bind:defaultClass={emailClass}
+				defaultClass="{emailClass} bg-gray-50 border text-gray-900 text-sm rounded-lg block w-full p-2.5 dark:bg-gray-700 dark:placeholder-gray-400 dark:text-white"
 				type="email"
 				color="Custom"
 				id="email"
@@ -51,10 +45,11 @@
 				</Helper>
 			{/if}
 		</Label>
+
 		<Label class="space-y-2">
 			<span>Asunto</span>
 			<Input
-				bind:defaultClass={subjectClass}
+				defaultClass="{subjectClass} bg-gray-50 border text-gray-900 text-sm rounded-lg block w-full p-2.5 dark:bg-gray-700 dark:placeholder-gray-400 dark:text-white"
 				type="text"
 				color="Custom"
 				id="subject"
@@ -71,6 +66,7 @@
 				</Helper>
 			{/if}
 		</Label>
+
 		<div class="sm:col-span-2">
 			<label for="message" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300"
 				>Su mensaje</label
@@ -79,7 +75,7 @@
 				id="message"
 				bind:value={inputValues.messageValue}
 				rows={6}
-				class="{messageClass} w-full rounded-lg border-gray-300 p-2.5 text-sm bg-gray-50 text-gray-900 border dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:bg-gray-700"
+				class="{messageClass} w-full rounded-lg p-2.5 text-sm bg-gray-50 text-gray-900 border dark:placeholder-gray-400 dark:text-white dark:bg-gray-700"
 				placeholder="Cuéntenos el motivo de su solicitud. Nuestro equipo de atención al cliente le responderá en breve..."
 			/>
 
